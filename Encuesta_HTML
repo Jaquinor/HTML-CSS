@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+
+<form id="survey-form">
+
+<head>
+  <title>
+    Encuesta
+  </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" 
+        href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description"> 
+    Thank you for taking the time to help 
+    us improve the platform
+  </p>
+  <form action="https://survey-form.  freecodecamp.org" 
+         method="post"
+  >
+  <fieldset>
+    <label id="name-label"
+           for="name">
+      Name <input id="name" 
+                  type="text"  
+                  placeholder="Enter your name" 
+                  required/>
+    </label>
+  </fieldset>
+  <fieldset> 
+    <label id="email-label"
+           for="email">Email 
+      <input id="email" 
+             type="email"  
+             placeholder="Enter your Email" 
+              required/>
+    </label>
+  </fieldset> 
+
+  <fieldset>
+    <label id="number-label"
+           for="number">Age (optional)  
+      <input id="number"     
+             type="number" 
+             placeholder="Age" 
+             required 
+             min="10" max="99"/>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <label for="rol">
+      Which option best describes your 
+      current role?
+    </label>
+    <select id="dropdown" 
+            name="rol" 
+            required >
+      <option value="">
+       Select current role   
+      </option>
+      <option value="1">
+        Student
+      </option>
+      <option value="2">
+        Full time Job
+      </option>
+      <option value="3">
+        Full time Learner
+      </option>
+      <option value="4">
+        Prefer not to say
+      </option>
+      <option value="5">
+        Other
+      </option>
+    </select>   
+    </label>
+  </fieldset> 
+
+  <fieldset>
+    <label>
+      Would you recommend freeCodeCamp to a friend?
+    </label> 
+    <label for="definitely"> 
+      <input id="definitely"  
+             type="radio"  
+             name="radio" 
+             class= "inline"
+             value="Definitely"  
+             checked> 
+             Definitely
+    </label>
+    <label for="maybe">
+      <input id="maybe" 
+             type="radio"  
+             name="radio"
+             value="Maybe"  
+             class= "inline"> 
+             Maybe
+    </label>
+    <label for="not-sure">
+      <input id="not-sure" 
+             type="radio" 
+             name= "radio"
+             value="Not sure" 
+             class= "inline">
+             Not sure  
+    </label>
+  </fieldset>
+
+  <fieldset>
+   <label for="feature">
+     What is your favorite feature of  
+     freeCodeCamp?
+      <select id="feature" 
+              name="feature"
+              required>
+        <option value="">
+         Select an option
+        </option>
+        <option value="1">
+          Challenges
+        </option>
+        <option value="2">
+          Projects
+        </option>
+        <option value="3">
+          Community
+        </option>
+        <option value="4">
+          Open Source
+        </option>
+      </select>
+    </label> 
+  </fieldset>
+  <fieldset >
+    <label>
+      What would you like to see  
+      improved? (Check all that apply)
+    </label>
+    <label for="Front-end Projects">  
+      <input id="Front-end-Projects" 
+             type="checkbox" 
+             name="Front-end-Projects" 
+             class= "inline"/> 
+             Front-end Projects
+    </label>
+    <label for="Back-end-Projects">
+      <input id="Back-end-Projects" 
+             type="checkbox" 
+             name="Back-end-Projects" 
+             class= "inline"/> 
+             Back-end Projects</label>
+    <label for="Data-Visualization">
+      <input id="Data-Visualization" 
+             type="checkbox" 
+             name="Data-Visualization" 
+             class= "inline"/> 
+             Data Visualization
+    </label>
+    <label for="Challenges">
+      <input id="Challenges"  
+             type="checkbox" 
+             name="Challenges" 
+             class= "inline"/> 
+             Challenges
+    </label>
+    <label for="Open-Source-Community">
+      <input id="Open-Source-Community" 
+             type="checkbox" 
+             name="Open-Source-Community" 
+             class= "inline"/> 
+             Open Source Community
+    </label>
+    <label for="Gitter-help-rooms">
+      <input id="Gitter-help-rooms" 
+             type="checkbox" 
+             name="Gitter-help-rooms" 
+             class= "inline"/> 
+             Gitter help rooms
+    </label>
+    <label for="Videos">
+      <input id="Videos" 
+             type="checkbox" 
+             name="Videos" 
+             class= "inline"/> 
+             Videos
+    </label>
+    <label for="City-Meetups">
+      <input id="City-Meetups" 
+             type="checkbox" 
+             name="City-Meetups" 
+             class= "inline"/> 
+             City Meetups
+    </label>
+    <label for="Wiki">
+      <input id="Wiki" 
+             type="checkbox" 
+             name="Wiki" 
+             class= "inline"/> 
+             Wiki
+    </label>
+    <label for="Forum">
+      <input id="Forum" 
+             type="checkbox" 
+             name="Forum" 
+             class= "inline"/> 
+             Forum
+    </label>
+    <label for="Additional-Courses">
+      <input id="Additional-Courses" 
+             type="checkbox" 
+             name="Additional-Courses" 
+             class= "inline"/> 
+             Additional Courses
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <label for="comment">Any comments or suggestions?
+    </label>
+    <textarea id="comment" 
+              placeholder="Enter your comment here..."
+              cols="34"
+              rows="5"
+    ></textarea>    
+  </fieldset>
+  <fieldset>
+    <input id="submit"
+           type="submit"
+           value="Submit">
+    </input>
+  </fieldset>    
+</body>  
+</form>
