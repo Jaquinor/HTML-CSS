@@ -1,0 +1,8 @@
+h1, h4, figure, footer,h3, img{text-align: center;}
+body {
+  background: #f5f6f7;
+}
+img{display: block;
+    max-width: 100%;
+    height: auto;
+}
