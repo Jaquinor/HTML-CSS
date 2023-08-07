@@ -1,7 +1,8 @@
-***** DOCUMENTACIÓN TÉCNICA *****
-
 # HTML_CSS
 Entrenamiento en Free Code Camp
+
+***** DOCUMENTACIÓN TÉCNICA *****
+
 Construye una página de documentación técnica
 Objetivo: Crea una aplicación que sea funcionalmente similar a https://technical-documentation-page.freecodecamp.rocks
 Historias de Usuario:
@@ -128,4 +129,6 @@ Pruebas
 •	Tu #image debe tener un max-width de 100%.
 •	Tu #image debe tener un height de auto.
 •	Tu #image debe estar centrado con respecto al elemento que lo contiene.
+
+
 
