@@ -1,4 +1,4 @@
-# HTML_CSS
+# HTML-CSS
 Entrenamiento en Free Code Camp
 
 ***** PROYECTO 1 FORMULARIO DE ENCUESTA *****
